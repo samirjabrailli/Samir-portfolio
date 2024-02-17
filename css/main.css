@@ -1,0 +1,516 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bgyasil: #53d153;
+    --bgag: #f3f3f3;
+    --bggrey: #a7a7a7;
+    --bgblack: #0000;
+  }
+  
+  /* header menu*/
+  /*header background img*/
+  header {
+    background-image: url("../img/Samir.jpg");
+    background-size: 659;
+    background-repeat: no-repeat;
+    height:659px;
+    box-shadow: 0 100px 200px inset black;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-attachment: fixed;
+  }
+  
+  /*header nav*/
+  header nav {
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+   
+  }
+  
+  /*menu*/
+  .menu ul {
+    display: flex;
+    list-style: none;
+    position: -webkit-sticky;
+    position: fixed;
+   top: 0;
+  }
+  
+  .menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Proxima Nova";
+    
+  }
+  
+  /*logo*/
+  .logo img {
+    font: size 1.6em;;
+    color: #fff;
+    font-weight: 400;
+    font-family: "Nautilus Pompilius";
+    text-align: center;
+    margin-right: 120px;
+  }
+  
+  
+  /*centerdiv*/
+  .centerDiv {
+    text-align: center;
+    padding: 10px;
+    bottom: 10px;
+  }
+  
+  .centerDiv h1 {
+    font-size: 1.8em;
+    background-color: orange;
+    color: white;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+    margin-bottom: 20px;
+    margin: 10px;
+    
+  }
+
+  .centerDiv h2 {
+    font-size: 1.8em;
+    background-color: orange;
+    color: white;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /*centerdivbutton*/
+  .centerDiv button {
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+    background-color: orange;
+    color: #ffff;
+    font-size: 18px;
+  }
+
+  .centerDiv button a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .buttonDiv button {
+  background-color:orange;
+  padding: 7px;
+  border: 0;
+  border-radius: 17px;
+}
+
+.buttonDiv button i{
+  color: white;
+}
+
+section {
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 10px;
+}
+
+.education{
+  background-color:  orange;
+width: 100%;
+height: 480px;
+}
+
+.education h1 {
+  font-size: 25px;
+  letter-spacing: 4px;
+  color: white;
+  font-weight: 300;
+  font-family: "Montserrat";
+  padding: 10px;
+}
+
+.education p {
+  color: white;
+  font-family: "Myriad Pro";
+  padding: 10px;
+  font-size: 25px;
+  
+
+}
+
+.education hr {
+  width: 30px;
+  background-color: orange;
+  border: 1px solid orange;
+  display: flex;
+  align-self: center;
+}
+
+
+
+.work{
+  background-color: var(--bgyasil);
+  width: 100%;
+  height: 310px;
+}
+
+.work h1{
+  font-size: 25px;
+  letter-spacing: 4px;
+  color:white ;
+  font-weight: 300;
+  font-family: "Montserrat";
+  padding: 10px;
+}
+
+.work p{
+  color: white;
+  font-family: "Myriad Pro";
+  padding: 10px;
+  font-size: 25px;
+ 
+}
+
+.work hr{
+  width: 30px;
+  background-color: white;
+  border: 1px solid white;
+  display: flex;
+  align-self: center;
+}
+
+.skills{
+  background-color: var(--bgag);
+  width: 100%;
+  height: 280px;
+}
+
+.skills h1{
+  font-size: 25px;
+  letter-spacing: 4px;
+  color: white;
+  font-weight: 300;
+  font-family: "Montserrat";
+  padding: 10px;
+}
+
+.skills hr{
+  width: 30px;
+  background-color: white;
+  border: 1px solid white;
+  display: flex;
+  align-self: center;
+}
+
+.skills .skill{
+  display: flex;
+  justify-content:space-evenly;
+
+}
+  .skill i{
+  margin: 10px;
+ }
+ .skill .html p{
+  color: black;
+  font-family: "Myriad Pro";
+  padding: 10px;
+  font-size: 25px;
+  text-align: justify;
+ }
+ .skill .html i{
+color: orange;
+font-size: 1.8em;
+ }
+
+ .skill .css p{
+  color: black;
+  font-family: "Myriad Pro";
+  padding: 10px;
+  font-size: 25px;
+  text-align: justify;
+ }
+
+ .skill .css i{
+  color: blue;
+  font-size: 1.8em;
+ }
+
+ .skill .php p{
+  color: black;
+  font-family: "Myriad Pro";
+  padding: 10px;
+  font-size: 25px;
+  text-align: justify;
+ }
+ .skill .php i{
+display: inline;
+background-color: blue;
+color: white;
+font-size: 1.8em;
+ }
+
+ .skill .wordpress p{
+    color: black;
+    font-family: "Myriad Pro";
+    padding: 10px;
+    font-size: 25px;
+    text-align: justify;
+   }
+
+   .skill .wordpress i{
+    color: blue;
+    font-size: 1.8em;
+   }
+
+  .skill .mysql p{
+    color: black;
+    font-family: "Myriad Pro";
+    padding: 10px;
+    font-size: 25px;
+    text-align: justify;
+  }
+
+  .skill .mysql i{
+    color: orange;
+    font-size: 1.8em;
+  }
+ 
+  .skill .ms-office p{
+    color: black;
+    font-family: "Myriad Pro";
+    padding: 10px;
+    font-size: 25px;
+    text-align: justify;
+  }
+
+  .skill .ms-office i{
+    color: blue;
+    font-size: 1.8em;
+  }
+
+  .certificate{
+    background-color: var(--bggrey);
+  width: 100%;
+  height: 350px;
+  }
+
+  .certificate h1{
+    font-size: 25px;
+  letter-spacing: 4px;
+  color: white;
+  font-weight: 300;
+  font-family: "Montserrat";
+  padding: 10px;
+  }
+
+  .certificate hr{
+    width: 30px;
+  background-color: #f3f3f3;
+  border: 1px solid #f3f3f3;
+  display: flex;
+  align-self: center;
+  margin: 10px'
+  }
+
+  .certificate p{
+    color: black;
+    font-family: "Myriad Pro";
+    padding: 10px;
+    font-size: 25px;
+    
+  }
+
+  .certificate h2{
+    font-size: 25px;
+  letter-spacing: 4px;
+  color: white;
+  font-weight: 300;
+  font-family: "Montserrat";
+  padding: 10px;
+  }
+
+  .language-skills{
+    background-color: var(--bgyasil);
+    width: 100%;
+    height: 310px;
+  }
+
+  .language-skills h1{
+    font-size: 25px;
+    letter-spacing: 4px;
+    color: white;
+    font-weight: 300;
+    font-family: "Montserrat";
+    padding: 10px;
+  }
+
+  .language-skills h1 i{
+    color: blue;
+    font-size: 1.8em;
+  }
+
+  .language-skills hr{
+    width: 30px;
+  background-color: #f3f3f3;
+  border: 1px solid #f3f3f3;
+  display: flex;
+  align-self: center;
+  margin: 10px;
+  }
+
+  .language-skills .language{
+    display: inline;
+  }
+
+  .language .az{
+    padding: 5px;
+  }
+
+  .language .az p{
+    color: white;
+    font-family: "Myriad Pro";
+    padding: 10px;
+    font-size: 25px;
+    
+  }
+
+  .language .en{
+    padding: 5px;
+  }
+
+  .language .en p{
+    color: white;
+    font-family: "Myriad Pro";
+    padding: 10px;
+    font-size: 25px;
+    
+  }
+
+  
+
+  .footer-section{
+    background-color: var(--bgag);
+    width: 100%;
+    height: 320px;
+    
+    
+  }
+
+  .footer-div{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+  .footer-div .about{
+    padding: 10px;
+  }
+
+  .footer-div .contact{
+    padding: 10px;
+  }
+
+  .footer-div .social-bar{
+    padding: 10px;
+   display: inline;
+
+  }
+
+  
+
+  .footer-div .about p{
+    color: black;
+    font-family: "Myriad Pro";
+    padding: 10px;
+    font-size: 25px;
+  }
+
+  .footer-div .contact p{
+    color: black;
+    font-family: "Myriad Pro";
+    padding: 10px;
+    font-size: 25px;
+  }
+
+  .footer-div .about h1{
+    font-size: 25px;
+    letter-spacing: 4px;
+    color: black;
+    font-weight: 300;
+    font-family: "Montserrat";
+    padding: 10px;
+  }
+
+  .footer-div .contact h1{
+    font-size: 25px;
+    letter-spacing: 4px;
+    color: black;
+    font-weight: 300;
+    font-family: "Montserrat";
+    padding: 10px;
+  }
+
+  .footer-div .contact p i{
+    color: black;
+    font-size: 1.3em;
+  }
+
+  .footer-div .social-bar h1{
+    font-size: 25px;
+    letter-spacing: 4px;
+    color: black;
+    font-weight: 300;
+    font-family: "Montserrat";
+    padding: 10px;
+  }
+
+  .footer-div .social-bar a{
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    font-size: 1.2em;
+  }
+
+  .footer-div .social-bar a i{
+    color: #53d153;
+  }
+
+  @media only screen and (max-width: 700px) {
+    nav, .menu ul {
+        flex-direction: column;
+        text-align: center;
+    }
+    .menu ul li{
+        margin: 10px 0;
+    }
+
+    .logo{
+      flex-direction: column;
+    }
+
+    .footer-div{
+      flex-direction: column;
+    }
+
+    .footer-div .social-bar a i{
+      display: inline;
+    }
+
+    
+  }
+

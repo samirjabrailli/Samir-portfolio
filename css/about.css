@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bgyasil: #53d153;
+    --bgag: #f3f3f3;
+    --bggrey: #a7a7a7;
+    --bgblack: #0000;
+  }
+  
+  /* header menu*/
+  /*header background img*/
+  header {
+    
+    background-image: url("../img/bg1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:659px;
+    box-shadow: 0 100px 200px inset black;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-attachment: fixed;
+  }
+  
+  /*header nav*/
+  header nav {
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+   
+  }
+  
+  /*menu*/
+  .menu ul {
+    display: flex;
+    list-style: none;
+    position: -webkit-sticky;
+    position: fixed;
+   top: 0;
+  }
+  
+  .menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Proxima Nova";
+    
+  }
+
+  .centerDiv {
+    text-align: center;
+    padding: 10px;
+    
+  }
+  
+  .centerDiv h1 {
+    font-size: 1.8em;
+    background-color: orange;
+    color: white;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+    margin-bottom: 20px;
+    margin: 10px;
+    
+  }
+
+  
+  
+  /*centerdivbutton*/
+  .centerDiv button {
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+    background-color: orange;
+    color: #ffff;
+    font-size: 18px;
+  }
+
+  .centerDiv button a{
+    text-decoration: none;
+    color: white;
+  }
+
+
+  section {
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+  }
+
+  .about-section{
+    background-color:  grey;
+    width: 100%;
+    height: 280px;
+  }
+
+  .about-section h1{
+    font-size: 25px;
+    letter-spacing: 4px;
+    color: white;
+    font-weight: 300;
+    font-family: "Montserrat";
+    padding: 10px;
+  }
+
+  .about-section hr{
+    width: 30px;
+    background-color: white;
+    border: 1px solid white;
+    display: flex;
+    align-self: center;
+  }
+
+  .about-section p{
+    color: white;
+    font-family: "Myriad Pro";
+    padding: 10px;
+    font-size: 25px;
+  }
+
+  .footer-section{
+    background-color: var(--bgag);
+    width: 100%;
+    height: 320px;
+    
+    
+  }
+
+  .footer-div{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+  .footer-div .about{
+    padding: 10px;
+  }
+
+  .footer-div .contact{
+    padding: 10px;
+  }
+
+  .footer-div .social-bar{
+    padding: 10px;
+   display: inline;
+
+  }
+
+  
+
+  .footer-div .about p{
+    color: black;
+    font-family: "Myriad Pro";
+    padding: 10px;
+    font-size: 25px;
+  }
+
+  .footer-div .contact p{
+    color: black;
+    font-family: "Myriad Pro";
+    padding: 10px;
+    font-size: 25px;
+  }
+
+  .footer-div .about h1{
+    font-size: 25px;
+    letter-spacing: 4px;
+    color: black;
+    font-weight: 300;
+    font-family: "Montserrat";
+    padding: 10px;
+  }
+
+  .footer-div .contact h1{
+    font-size: 25px;
+    letter-spacing: 4px;
+    color: black;
+    font-weight: 300;
+    font-family: "Montserrat";
+    padding: 10px;
+  }
+
+  .footer-div .contact p i{
+    color: black;
+    font-size: 1.3em;
+  }
+
+  .footer-div .social-bar h1{
+    font-size: 25px;
+    letter-spacing: 4px;
+    color: black;
+    font-weight: 300;
+    font-family: "Montserrat";
+    padding: 10px;
+  }
+
+  .footer-div .social-bar a{
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    font-size: 1.2em;
+  }
+
+  .footer-div .social-bar a i{
+    color: #53d153;
+  }
+
+  @media only screen and (max-width: 700px) {
+    nav, .menu ul {
+        flex-direction: column;
+        text-align: center;
+    }
+    .menu ul li{
+        margin: 10px 0;
+    }
+
+    .logo{
+      flex-direction: column;
+    }
+
+    .footer-div{
+      flex-direction: column;
+    }
+
+    .footer-div .social-bar a i{
+      display: inline;
+    }
+
+    
+  }
